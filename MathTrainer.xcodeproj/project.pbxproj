@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B31DC7E2A82776D00D2A9C9 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC7D2A82776D00D2A9C9 /* GameScreen.swift */; };
+		8B31DC802A8277C900D2A9C9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC7F2A8277C900D2A9C9 /* GameView.swift */; };
+		8B31DC822A82780100D2A9C9 /* ChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC812A82780100D2A9C9 /* ChoiceButtonView.swift */; };
+		8B31DC842A82783400D2A9C9 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC832A82783400D2A9C9 /* StatusBarView.swift */; };
+		8B31DC862A82785000D2A9C9 /* GameWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC852A82785000D2A9C9 /* GameWrapper.swift */; };
+		8B31DC882A827AA300D2A9C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31DC872A827AA300D2A9C9 /* SettingsView.swift */; };
 		8BD434512A8126A000984B1F /* MathTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD434502A8126A000984B1F /* MathTrainerApp.swift */; };
 		8BD434532A8126A000984B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD434522A8126A000984B1F /* ContentView.swift */; };
 		8BD434552A8126A100984B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD434542A8126A100984B1F /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B31DC7D2A82776D00D2A9C9 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		8B31DC7F2A8277C900D2A9C9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8B31DC812A82780100D2A9C9 /* ChoiceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButtonView.swift; sourceTree = "<group>"; };
+		8B31DC832A82783400D2A9C9 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		8B31DC852A82785000D2A9C9 /* GameWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWrapper.swift; sourceTree = "<group>"; };
+		8B31DC872A827AA300D2A9C9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8BD4344D2A8126A000984B1F /* MathTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD434502A8126A000984B1F /* MathTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTrainerApp.swift; sourceTree = "<group>"; };
 		8BD434522A8126A000984B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,10 +63,16 @@
 		8BD4344F2A8126A000984B1F /* MathTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				8B31DC7F2A8277C900D2A9C9 /* GameView.swift */,
 				8BD434502A8126A000984B1F /* MathTrainerApp.swift */,
 				8BD434522A8126A000984B1F /* ContentView.swift */,
 				8BD434542A8126A100984B1F /* Assets.xcassets */,
 				8BD434562A8126A100984B1F /* Preview Content */,
+				8B31DC7D2A82776D00D2A9C9 /* GameScreen.swift */,
+				8B31DC812A82780100D2A9C9 /* ChoiceButtonView.swift */,
+				8B31DC832A82783400D2A9C9 /* StatusBarView.swift */,
+				8B31DC852A82785000D2A9C9 /* GameWrapper.swift */,
+				8B31DC872A827AA300D2A9C9 /* SettingsView.swift */,
 			);
 			path = MathTrainer;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B31DC842A82783400D2A9C9 /* StatusBarView.swift in Sources */,
+				8B31DC882A827AA300D2A9C9 /* SettingsView.swift in Sources */,
 				8BD434532A8126A000984B1F /* ContentView.swift in Sources */,
+				8B31DC7E2A82776D00D2A9C9 /* GameScreen.swift in Sources */,
+				8B31DC822A82780100D2A9C9 /* ChoiceButtonView.swift in Sources */,
+				8B31DC862A82785000D2A9C9 /* GameWrapper.swift in Sources */,
+				8B31DC802A8277C900D2A9C9 /* GameView.swift in Sources */,
 				8BD434512A8126A000984B1F /* MathTrainerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
