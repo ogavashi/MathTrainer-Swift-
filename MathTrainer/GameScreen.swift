@@ -40,6 +40,10 @@ struct GameScreen: View {
     }
     
     func getNumber() -> Int {
+        if numbers.isEmpty {
+            numbers = Array(1...10)
+        }
+        
         let number = numbers.randomElement() ?? 0
         
         if let indexOfNumber = numbers.firstIndex(of: number) {
