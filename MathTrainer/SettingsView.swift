@@ -13,7 +13,9 @@ struct SettingsPage: View {
     @Binding var gameStatus: GameStatus
     
     func startGame() {
-        gameStatus = GameStatus.PLAYING
+        withAnimation {
+            gameStatus = GameStatus.PLAYING
+        }
     }
     
     var body: some View {

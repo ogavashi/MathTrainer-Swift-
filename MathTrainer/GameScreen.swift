@@ -19,7 +19,7 @@ struct GameScreen: View {
     @State private var answer = 0
     @State private var showMessage = false
     @State private var showFinish = false
-
+    
     
     @Binding var gameStatus: GameStatus
     
@@ -30,7 +30,9 @@ struct GameScreen: View {
     }
     
     func finishGame() {
-        gameStatus = GameStatus.SETTINGS
+        withAnimation {
+            gameStatus = GameStatus.SETTINGS
+        }
     }
     
     func checkStats() {
@@ -127,7 +129,9 @@ struct GameScreen: View {
                 }
                 .alert("Are you sure ?", isPresented: $showFinish) {
                     Button("Yes") {
-                        gameStatus = GameStatus.SETTINGS
+                        withAnimation{
+                            gameStatus = GameStatus.SETTINGS
+                        }
                     }
                     Button("No") {
                         
